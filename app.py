@@ -5,7 +5,7 @@ import subprocess
 import datetime
 from google import genai
 from google.genai import types
-from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_audioclips
+from moviepy import VideoFileClip, AudioFileClip, concatenate_audioclips
 
 # --- SETUP ---
 st.set_page_config(page_title="Gemini 3.1 AI Video Dubber", layout="wide")
